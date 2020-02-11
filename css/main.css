@@ -1,0 +1,86 @@
+
+html{
+  margin: 0 0 0 0;
+  padding: 0 0 0 0;
+  width: 100vw;
+}
+
+body{
+  width: 100vw;
+  height: 100vh;
+  margin: -25px 0 0 0;
+  padding: 0 0 0 0;
+  font-family: 'Poppins', sans-serif;
+  text-align: center;
+  margin-bottom: -20px;
+}
+
+header{
+  width: 100vw;
+  height: 100vh;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  background: #F2D6BD;
+  margin: 0 auto;
+}
+
+h1{
+  margin-left: 0 auto;
+  color: #BFA678;
+  font-size: 7rem;
+  text-transform: uppercase;
+}
+
+h2{
+  font-size: 5rem;
+  color: #FFFFFF;
+  text-transform: uppercase;
+}
+
+.content{
+  width: 100%;
+  height: auto;
+  background-color: #F2D6BD;
+}
+
+.item{
+  height: 80vh;
+  width: 100vw;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+
+.a1, .a3{
+  background: #BFA678;
+  color: #F2F2F2;
+  width: 100vw;
+}
+
+.a2, .a4{
+  color: #F2D6BD;
+  width: 100vw;
+}
+
+.a2{
+  background-image: url('../img/haende.jpg');
+  background-size: 100% auto;
+}
+
+.a4{
+  background-image: url('../img/gesicht.jpg');
+  background-size: 100% auto;
+}
+
+footer{
+  height: 10vh;
+  width: 100vw;
+  background: #F2D6BD;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 2rem;
+  color: #BFA678;
+  margin-bottom: 0px;
+}
